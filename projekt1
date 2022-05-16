@@ -1,0 +1,25 @@
+
+public class Main {
+
+public static void main(String[]args) {
+ Random random =new Random();
+int numberToGuess = random.nextInt(bound:100)+1;
+
+new scanner(System in)
+boolean was number Guessed =
+false;
+while(!was number   Guessed)
+ 
+{
+System.out.println("Podaj liczbe")
+ int userNumbreer = scanner.nextInt();
+
+if (userNumber <  numberToGuess ) {
+System.out.println("Liczba jest za mała");
+} else  if(userNumber > numberToGuess)
+{
+system.out.println("licba jest za duza");
+} else{
+System.out.println("Brawo dobra liczba");
+wasNumberGuessed= true;
+}
