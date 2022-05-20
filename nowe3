@@ -1,0 +1,193 @@
+import.java.util.ArrayList;
+import.java.util.list
+
+public static void mian(String[]args) {
+Monitor monitor = new Monitor();
+System.out.println(monitor.getResolution)
+monitor.setLowResolution()
+System.out.println(monitor.getResolution)
+}
+public class Computer {
+Monitor monitor;
+private Drive drive;
+private Headphones heaphones;
+}
+List <USBDevice>  usbdevices = new ArrayList<>();
+public Computer(Monitor monitor,Drive drive) {
+this.monitor = monitor.
+this.drive= drive.
+
+}
+public class Monitor {
+private int width = 3840;
+private int height=1435;
+}
+public void setWidth(int width) {
+this.width= width;
+}
+public void setHeight(int height) {
+this.height =height;
+}
+public class Headphones {
+private final String name;
+}
+public void setLowResolution() {
+width = 900;
+height = 600;
+}
+
+public void sethighResolution() {
+width = 4999;
+height = 1240;
+}
+public String getResolution() {
+return width +
+
+}
+public class Drive {
+List<file> hdd files= NewArrayList<>();
+Map<String,File> ssdFile = new HashMap<>();
+public Drive(string type) {
+this.type=type;
+}
+public void addFile(file file) {
+
+if(type.equals)("HDD")
+{
+hddFiles.add(file);
+} else if(type.equal)("SSD")){
+ssdFiles.put(file.toString().toFile(,file);
+}
+public interface Drive() {
+void addFile(file file);
+void listFiles();
+}
+public class HDDD implements Drive() {
+
+}
+@Override()
+public void listFiles() {
+files.forEach(System.out::println(:)
+for(File file:files) {
+
+}
+public class SSD drive(implements drive) {
+
+}
+@Override
+public void addFile(file, file) {
+files.put(file.toString(), file);
+}
+@Override
+public void listFiles() {
+
+}
+@Override
+public File findFile(String name) {
+return null;
+}
+public class File{
+private final String name;
+private boolean ejected = false;
+public File(String name) {
+this.name = name;
+}
+public String getName() {
+return Name;
+}
+public void eject() {
+System.out.println("Ejecting memory");
+ejected= true;
+}
+Monitor monitor = new Monitor();
+HDDdrive - new HDDdrive();
+Copmuter computer = new Computer(monitor,drive);
+drive.addFile(NewFile(name:"jinspg.jpg")):
+drive.listFiles();
+
+}
+public Memory Stick(String name) {
+this.name =name;
+
+}
+@Override 
+public boolean connect() {
+System.out.println("connect Memory Stick")
+return false;
+}
+@Override
+public boolean disconnect() {
+if !(ejected) {
+System.out.println("Pleaseejeck memory Stick);
+return false;
+}else{
+System.out.println("Memory Stick disconnected");
+return true;
+
+}
+public interface USBDevice() {
+boolean connect();
+boolean disconnect();
+String getName();
+}
+public class MemoryStick implements USBDevice() {
+
+}
+public void addUSBDevice(usbDevice,usbDevice) {
+ boolean is connected =usbdevice.connect();
+}
+public interface File() {
+
+}
+public class GIFIMAGEFile implements File() {
+String name;
+int size;
+}
+publicGIFImageFile(String name,String size);
+}
+
+public classJPGImageFIle implements file ()
+this.name = name;
+this.size= size;
+this.compresion= compresion;
+}
+public int getCompression()  {
+return compression;
+}
+public void displayImage() {
+System.out.println("Displaying JPG");
+}
+public class AbstractImageFile {
+protected String naame;
+protected int Size;
+}
+@Override {
+public FileGetType() {
+return FileType;
+
+}
+publicGIfImageFile(String name,string size){
+super(name,size);
+}
+public voidshowAnimation() {
+system.out.println("showing  funn GIF");
+
+}
+public Interface Musicfile extendsFile{
+void play();
+}
+public Abstract classAbstractMusicFile implements MusicFile{
+String bandName;
+String title;
+publicAbstractMusicFile(StringbandName,String title){
+String bandName;
+String title;
+}
+publicAbstractImageFile(stringname,StringSize) {
+super(name,size);
+}
+public classMP3 file extends AbstractMusicFile {
+@Override
+public void play(){
+
+}
