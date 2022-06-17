@@ -1,0 +1,23 @@
+<form action="receive.php" method="post">
+<fieldset>
+<legend>Twoje dane</legend>
+
+<p>
+<label for="firstname">imie:</label>
+<input type=text" id="firstname" name="firstname">
+</p>
+<p>
+<label for="lastname">imie:</label>
+<input type=text" id="lastname" name="lastname"
+palceholer="Wprowadz imie">
+</p>
+</fieldset>
+<legend>info</legend>
+<p>
+<label for="age">imie:</label>
+<input type=text" id="age" name="age">
+</p>
+<fieldset>
+</fieldset>
+<button>Wyslij</button>
+</form>

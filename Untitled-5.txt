@@ -1,0 +1,4 @@
+node -e"console.log('ok');"
+
+node-e "varx=1;var y=2; console.log(x+y);"
+node-e "console.log(new Date());"

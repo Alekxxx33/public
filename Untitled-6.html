@@ -1,0 +1,13 @@
+<form class="add-form" method="POST" action={"{{url_for_{zadania}}">
+<input name="zadanie" value=""/>
+<button type="submit">Dodaj zadanie</button>
+</form?
+<p>
+    { % if error %}
+    <strong class="error">Bład: {{error}}</strong>
+    {% endif %}
+
+    {% for message in get_flashed_messages() %}
+    <strong class="success">{{message}} </strong>
+    {% endfor%}
+</p>
