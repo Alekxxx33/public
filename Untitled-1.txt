@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html lang="pl-PL">
-<head>
-<meta charset="utf-8">
-<title>Nowoczesny HTML</title>
-<link rel="stylesheet" href="styles.style.css">
-</head>
-<body>
-<article>
-<h1>d</h1>
-<h2>drukarka</h2>
-<img src="drukarka" alt="drukarka 3">
-<section>
-</section>
-<h2>newsletter</h2>
-<form action="form.php">
-<label>Email</label>
-<input type="text" name="youremail">
-<button type="submit">Zapisz się button</button>
-<section>
-<p>d</p>
+<ThreeButtons>
+size_hint:1,1
+theme_text_color:"Custom"
+text_color:0,0,0,1
+line_color:1,1,1,1
+_no_ripple_effect: True

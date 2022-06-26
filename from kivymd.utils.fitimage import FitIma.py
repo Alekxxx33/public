@@ -1,5 +1,4 @@
 from kivymd.utils.fitimage import FitImage
 
-class AvatarImage(FitImage)
-pass
-
+class AvatarImage(FitImage):
+    pass

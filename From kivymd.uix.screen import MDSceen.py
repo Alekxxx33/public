@@ -1,5 +1,6 @@
 From kivymd.uix.screen from operator import truediv
-from tkinter import Menu
+from tkinter import CENTER, Menu
+from turtle import color, setworldcoordinates
 from xml.etree.ElementTree import TreeBuilder
 import MDSceen
 
@@ -83,3 +84,97 @@ adaptive_wight:true;
 id:online_friends;
 padding: 10
 spacing: 10
+MDSeperator:
+size_hint_:None
+height: 12
+MDBoxLayout:
+adaptive_width:True
+padding:  10
+height:200
+
+ScrollView:
+size_hint_y:None
+height:"190dp"
+bar_width: 0
+
+MDBoxLayout:
+adaptive_width:True
+spacing: 100
+
+MDRelativeLayout:
+md_bg_color: 1,1,1,1
+size_hint_y:None
+size:"110dp","190"
+
+MDRelativeLayout:
+md_bg_color: get color_from hex("Bebeb")
+radius: 15
+pos_hint{:"top:1",left:"1"}
+
+FitImage:
+source: root.profile_pic
+radius:[15,15,0,0];
+mipmap: True;
+size_hint: None,None
+size: "100dpx"
+pos_hint:{"top:1","left:1"}
+
+FitImage:
+source:
+pos_hint{'center: x0.5',center:y:0.35}
+size_hint:None,None
+MDLabel:
+text:"Create Story"
+theme_text_color:"Custom"
+text_color:0,0,0,1;
+halign:'center'
+font_size:14
+adaptive_height:True
+
+MDBoxLayout:
+adaptive_wight: True
+id: stories
+
+MDSeperator:
+size_hint_y:None
+height: 12
+
+
+
+TwoLineAvatarIconListItem:
+texxt:root.name
+secondart_text: root.update
+divider:None
+_no_ripple_effect:True
+
+ImageLeftWidget:
+source: root.avatat
+radius:[20,]
+
+MDIconButton:
+icon:"dots-hor"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
